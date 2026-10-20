@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Build artifacts / bundling output
+build/
+dist/
+*.spec
+*.bundle
+
+# Backup archives & temporary outputs (never commit user data)
+*.tar
+*.tar.gz
+*.tar.zst
+*.mf
+
+# Models / large files
+*.bin
+*.ckpt
+*.onnx
+*.pt
+
+# Third-party binaries: only source goes to the repo
+third_party/**/bin/
+third_party/**/*.jar
+third_party/**/*.exe
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
